@@ -20,7 +20,8 @@ public class RoundRobin {
 	public static void main(String[] args) throws IOException {
 		String linha = null;
 		
-		int quantum = 4, N, entrada, tempoAtual, execucao, q, temposFinais[], quantidadeProcessos, burstNovo, temposExecucao[];
+		// quantum definido no projeto tem que ser 10
+		int quantum = 10, N, entrada, tempoAtual, execucao, q, temposFinais[], quantidadeProcessos, burstNovo, temposExecucao[];
 		ArrayList chegada, burst, processos, cpchegada, cpburst;
 		ArrayList tempos_finais;
 		double tempoMedioExecucao, tempoMedioEspera, turnaround;
